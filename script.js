@@ -2,10 +2,19 @@
 var obj1 = {name:"Person 1",age:5};
 var obj2 = {age:5,name:"Person 1"};
 
-var result = JSON.stringify(obj1);
-var result1 = JSON.stringify(obj2);
+let res1 = JSON.stringify(obj1);
+console.log(res1);
+let res2 = JSON.stringify(obj2);
+console.log(obj2);
 
-result===result1;
+if(res1===res2){
+    console.log("Both are Same");
+}
+else{
+    console.log("Not same");
+}
+
+
 
 //2. Question:-
 
